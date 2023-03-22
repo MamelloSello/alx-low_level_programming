@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *print_sign - prints the sign of a number
- *@n: the int to check
- *@arg: First operand
+ * _isalpha - prints the sign of a number
+ * @n: the int to check
+ * @arg: First operand
  *
  * Return: 1 and prints + if n is greater than zero
  */
