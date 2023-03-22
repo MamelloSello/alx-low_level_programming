@@ -1,10 +1,9 @@
 #include "main.h"
-/**
- * _isalpha - prints the sign of a number
- * @n: the int to check
- * @arg: First operand
+ /**
+ * _isalpha - checks for alphabetic character
+ * @c: the character to be checked
  *
- * Return: 1 and prints + if n is greater than zero
+ * Return: 1 if c is a letter, 0 otherwise
  */
 int _isalpha(int c)
 {
