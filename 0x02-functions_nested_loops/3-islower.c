@@ -1,9 +1,9 @@
 #include "main.h"
-/**
- * main - Entry point
+ /**
+ * _islower - Check if char is lowercase
+ * @c: Is the char to be checked
  *
  * Description: 'the program's description'
- * @parameter: describe the parameter
  *
  * Return: Always 0 (Success)
  */
