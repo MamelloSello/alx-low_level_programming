@@ -1,14 +1,16 @@
 #include "main.h"
 /**
-* _isupper - uppercase letters
-* @c: char to check
-*
-* Return: 0 or 1
+* _strlen - returns the length of a string
+* @s: string
+* Return: length
 */
-int _isupper(int c)
+int _strlen(char *s)
 {
-if (c >= 'A' && c <= 'Z')
-return (1);
-else
-return (0);
+int longi = 0;
+while (*s != '\0')
+{
+longi++;
+s++;
+}
+return (longi);
 }
