@@ -15,7 +15,7 @@ bytes = atoi(argv[1]);
 if (argc != 2 && bytes < 0)
 {
 printf("Error\n");
-exit(1); 
+exit(1);
 }
 arr = (char *)main;
 for (a = 0; a < bytes; a++)
