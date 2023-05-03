@@ -12,8 +12,8 @@ listint_t *male;
 int num;
 if (!head || !*head)
 return (0);
-num = (*head)->n;
-male = (*head)->next;
+num = (*head)-> n;
+male = (*head)-> next;
 free(*head);
 *head = male;
 return (num);
