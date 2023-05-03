@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdlib.h>
 /**
-* argstostr - Prints concatenates of all arguments 
-* @ac: first argument takes int 
+* argstostr - Prints concatenates of all arguments
+* @ac: first argument takes int
 * @av: socond argument for number of array
 * Return: 0
 */
